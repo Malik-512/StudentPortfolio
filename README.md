@@ -1,16 +1,81 @@
-# React + Vite
+# StudentPortfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A student registration and portfolio web application developed using React and Vite.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+StudentPortfolio is a React-based web application that provides a student registration form. Students can enter their personal information, select a subject, and submit their details.
 
-## React Compiler
+The application includes input handling, form validation, error messages, and successful submission feedback.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap 5
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Student registration form
+- First name and last name fields
+- Age validation (18–30 years)
+- Subject selection
+- Address input
+- Form validation
+- Error messages for invalid inputs
+- Success message after submission
+- Reset form functionality
+- Responsive design using Bootstrap
+
+## Project Structure
+
+```text
+lab10-app/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── StudentForm.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Malik-512/StudentPortfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd StudentPortfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Author
+
+GitHub: [Malik-512](https://github.com/Malik-512)
